@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Badshah Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Badshah's Store</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html" class="active">Cart</a>
+    </nav>
+  </header>
+
+  <section class="cart">
+    <h1>Your Cart</h1>
+    <div id="cart-container"></div>
+    <div class="cart-total">
+      <h2>Total: $<span id="cart-total">0.00</span></h2>
+      <button class="btn" onclick="window.location.href='checkout.html'">Proceed to Checkout</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Badshah. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

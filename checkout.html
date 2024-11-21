@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Badshah's Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Badshah's Store</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <section class="checkout">
+    <h1>Checkout</h1>
+    <div id="checkout-summary">
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="checkout-table-body"></tbody>
+      </table>
+      <h2>Total Price: <span id="total-price">$0.00</span></h2>
+    </div>
+    <form id="checkout-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <textarea placeholder="Shipping Address" required></textarea>
+      <button type="submit">Complete Purchase</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Badshah. All rights reserved.</p
